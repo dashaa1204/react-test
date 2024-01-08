@@ -1,10 +1,12 @@
-import Card from "./components/Card";
+import Cards from "./components/Cards";
+import Header from "./components/Header";
+import "./styles/global.css";
 
 export default function App() {
   return (
     <div>
-      <p>Hello World</p>
-      <Card />
+      <Header />
+      <Cards />
     </div>
   );
 }
